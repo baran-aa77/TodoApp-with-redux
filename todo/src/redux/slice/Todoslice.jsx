@@ -1,9 +1,8 @@
 import {createSlice} from '@reduxjs/toolkit'
-import { act } from 'react-dom/test-utils'
 
 const initialState = [
-    {id:1 , title:'Title' , description:'say what...', isDone:false},
-    {id:2 , title:'Title1' , description:'say what......', isDone:true}
+    {id:1 , title:'English class' , description:'10-12 oclock', isDone:false},
+    {id:2 , title:'Reading book' , description:'pages 10-20', isDone:true}
 ]
 
 export const Todoslice = createSlice({
